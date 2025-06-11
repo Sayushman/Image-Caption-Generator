@@ -1,4 +1,6 @@
 🖼️ ImageCaption-Suggestion
+
+
 A Tkinter GUI application that allows users to upload and blend two images with gesture-controlled blending using MediaPipe hand tracking. 
 The app also generates intelligent captions for the blended image using a pre-trained transformer-based image captioning model.
 
