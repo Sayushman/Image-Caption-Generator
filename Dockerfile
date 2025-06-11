@@ -14,6 +14,7 @@ WORKDIR /app
 # Install system dependencies required for OpenCV, Tkinter, and MediaPipe
 RUN apt-get update && apt-get install -y \
     python3-tk \
+    bcc==0.29.1 \
     libgl1-mesa-glx \
     libglib2.0-0 \
     libsm6 \
