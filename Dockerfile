@@ -9,6 +9,8 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Set working directory in container
 WORKDIR /app
 
+
+
 # Install system dependencies required for OpenCV, Tkinter, and MediaPipe
 RUN apt-get update && apt-get install -y \
     python3-tk \
